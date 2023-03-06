@@ -32,6 +32,12 @@ The full URL to your local [Enphase Envoy Proxy](https://github.com/paullockaby/
 
 The port on which to listen for Prometheus connections.
 
+## Example
+
+Once you've configured Prometheus to collect the data that you want, [there is an example dashboard in the `examples` directory](https://github.com/paullockaby/enphase-exporter/blob/main/examples/basic-grafana-dashboard.png?raw=true). It looks like this:
+
+![Example Grafana Dashboard for Enphase Exporter](https://github.com/paullockaby/enphase-exporter/blob/main/examples/basic-grafana-dashboard.png?raw=true)
+
 ## Trademarks
 
 Enphase(R), Envoy(R) are trademarks of Enphase Energy(R).
