@@ -1,7 +1,7 @@
 FROM python:3.11.2-slim-bullseye@sha256:d0e839882b87135b355361efeb9e9030c9d2a808da06434f4c99eb4009c15e64 AS base
 
 # github metadata
-LABEL org.opencontainers.image.source=https://github.com/paullockaby/enphase-poller
+LABEL org.opencontainers.image.source=https://github.com/paullockaby/enphase-exporter
 
 # install updates and dependencies
 ENV DEBIAN_FRONTEND=noninteractive
