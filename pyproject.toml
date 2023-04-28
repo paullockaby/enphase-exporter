@@ -10,7 +10,7 @@ enphase_exporter = "enphase_exporter:main"
 
 [tool.poetry.dependencies]
 python = "^3.11"
-requests = "^2.28.2"
+requests = "^2.29.0"
 prometheus-client = "^0.16.0"
 tenacity = "^8.2.2"
 
